@@ -1,0 +1,11 @@
+{
+  "name": "xmlvalidator",
+  "version": "1.0.0",
+  "description": "Automatic XML Validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Carlos Flores",
+  "license": "ISC"
+}
