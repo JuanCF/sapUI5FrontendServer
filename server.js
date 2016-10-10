@@ -2,8 +2,11 @@ var express = require('express');
 var app = express();
 var portNumber = 4000;
 var path = require("path");
+var cors = require('cors');
 
 //app.use(express.static(__dirname));
+
+app.use(cors());
 
 app.use(express.static(path.join(__dirname, '..', 'Mobile')));
 
