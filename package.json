@@ -4,7 +4,7 @@
   "description": "Omnichannel",
   "main": "index.js",
   "scripts": {
-	"start":"node main.js",
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan Carlos Flores",
@@ -15,6 +15,7 @@
     "gulp": "^3.9.1",
     "gulp-less": "^3.1.0",
     "gulp-rename": "^1.2.0",
+    "gulp-util": "^3.0.7",
     "less": "^2.7.1",
     "node-inspector": "^0.12.8",
     "shelljs": "^0.7.4",
