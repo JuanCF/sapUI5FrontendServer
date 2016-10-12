@@ -13,9 +13,9 @@ gulp.task('processLess', function () {
 	console.log(destPath);
 	return gulp.src(fileToProcess)
 		.pipe(less())
-		.pipe(rename({
+		/*.pipe(rename({
 			extname: '.min.css'
-		}))
+		}))*/
 		.pipe(gulp.dest(destPath));
 });
 
