@@ -27,7 +27,7 @@ gulp.task('processLess', function () {
 });
 
 gulp.task('watch', function () {
-	var toWatchPath = path.join(__dirname, '..', 'Mobile', 'common', 'css', '**.less');
+	var toWatchPath = path.join(__dirname, '..', 'Mobile', 'common', 'css', '**','*.less');
 	gulp.watch([toWatchPath], ['processLess']);
 });
 
